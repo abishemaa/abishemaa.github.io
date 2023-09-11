@@ -1,0 +1,341 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.home
+{
+    background-image: url(https://img.freepik.com/free-photo/man-woman-holding-puppies_273609-22496.jpg?size=626&ext=jpg&uid=R77798745&ga=GA1.2.816084761.1692607612&semt=ais);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.services, .home, .team, .support, .content {
+        border-bottom: 3px solid #bbb;
+        width: 100%;
+      }
+.ct
+{
+    padding: 200px 200px 0 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.content
+    {
+        padding: 100px;
+        text-align: center;
+        overflow: hidden;
+    }
+.home,.about  h1
+{
+    font-size: 3em;
+    margin-bottom: 10px;
+    padding: 0 50px;
+}
+.home,.about p{
+    font-size: 1.5em;
+    padding: 0 150px;
+}
+.ct button
+{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 60px;
+    margin-top: 30px;
+}
+.ct button:hover
+{
+    background-color: blue;
+    color: white;
+}
+.services
+{
+    overflow: hidden;
+    padding: 50px;
+}
+.row .col
+{
+    margin: 2px;
+    padding: 30px 0px 30px 180px;
+    border: none;
+}
+ .row .col .card-body
+{
+    width: 300px;
+    border: none;
+}
+ h5,p
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+.services h1
+{
+    text-align: center;
+    font-size: 3em;
+}
+.support
+{
+    background-image: url(https://img.freepik.com/free-photo/happy-afro-american-lady-man-pose-with-pleasure-hold-two-little-puppies-like-spending-time-with-dogs-smile-positively-isolated-blue-wall-family-happiness-animals-concept_273609-26244.jpg?size=626&ext=jpg&uid=R77798745&ga=GA1.2.816084761.1692607612&semt=ais);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    overflow: hidden;
+}
+.support h1
+{
+    font-size: 3em;
+}
+.support p
+{
+    padding: 10px 250px;
+    font-size: 1.5em;
+}
+.support button
+{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 60px;
+    margin: 50px 10px;
+}
+.support button:hover
+{
+    background-color: blue;
+}
+
+.team
+{
+        overflow: hidden;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+}
+.team .roww
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team .row .col
+{
+    border: none;
+}
+.card
+{
+    width: 300px;
+    align-items: center;
+}
+.team .card img
+{
+    width: 170px;
+    padding: 10px;
+}
+.team h1
+{
+    font-size: 3em;
+}
+footer
+{
+    overflow: hidden;
+    padding: 50px;
+}
+footer a
+{
+    margin: 100px;
+    font-weight: 1000;
+    font-size: 50px;
+}
+footer .left h4
+{
+    padding-left: 10px;
+}
+footer li
+{
+    list-style: none;
+}
+footer .column
+{
+    float: left;
+    padding-left: 70px;
+}
+footer .left
+{
+    width: 30%;
+}
+footer .left h4
+{
+    padding-left: 30px;
+}
+footer .right
+{
+    width: 70%;
+    display: flex;
+}
+footer .right h4
+{
+    padding-left: 100px;
+}
+footer h4
+{
+    padding: 50px 20px 20px 90px;
+
+}
+
+
+
+@media (max-width:480px){
+    .content{
+        padding: 0px;
+    }
+    .home,.about  h1
+{
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+.home,.about p{
+    font-size: 1.5em;
+    padding: 20px 30px;
+}
+.ct
+{
+    padding: 250px 10px 150px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.ct button
+{
+    font-size: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 85px;
+}
+.services
+{
+    overflow: hidden;
+    padding: 10px;
+    flex-direction: column;
+}
+.services h5
+{
+    font-weight: bold;
+}
+.row .col
+{
+    margin: 2px;
+    padding: 30px 50px;
+    border: none;
+}
+.row .col .card img
+{
+    width: 100%;
+    border: none;
+}
+.support p
+{
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+.support button
+{
+    font-size: 1.2em;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 60px;
+    margin: 10px;
+}
+.team
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    padding: 20px;
+}
+.team .card
+{
+    width: 250px;
+}
+.team .col .card img
+{
+    width: 150px;
+    padding: 10px;
+}
+.team h1
+{
+    font-size: 2em;
+}
+.team .roww
+{
+    flex-direction: column;
+    padding-left: 40px;
+}
+.team .roww .col
+{
+    padding-top: 30px;
+}
+footer
+{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+footer a
+{
+    margin: 50px;
+    font-weight: 1000;
+    font-size: 30px;
+}
+footer .column
+{
+    float: left;
+    justify-content: center;
+}
+
+footer .left
+{
+    width: 100%;
+}
+footer .left h4
+{
+    font-size: 1.5em;
+    padding-left: 0px;
+}
+footer .right
+{
+    width: 100%;
+    padding-left: 0px;
+    flex-direction: column;
+}
+footer .right h4
+{
+    font-size: 1.5em;
+}
+footer li
+{
+    font-size: 1.5em;
+}
+}
